@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sample Project</string>
+    <string name="title_activity_login">Login</string>
+    <string name="enter_phone_number_email">Enter phone number</string>
+    <string name="enter_password">Enter password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="login_button">Login</string>
+    <string name="create_account">Create an account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last name</string>
+    <string name="enter_email">Enter a valid e-mail</string>
+    <string name="enter_phone_number">Enter a valid phone number</string>
+    <string name="create_button">Create account</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="login_successful">LOGIN SUCCESSFUL!!</string>
+    <string name="account_created">ACCOUNT CREATED SUCCESSFULLY!!</string>
+
+</resources>
