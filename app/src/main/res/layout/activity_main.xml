@@ -113,7 +113,7 @@
                 android:background="@color/purple_700"
                 android:text="@string/login_button"
                 android:onClick="callLoginScreen"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:layout_margin="20dp"/>
 
             <com.google.android.material.button.MaterialButton

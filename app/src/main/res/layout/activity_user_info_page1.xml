@@ -118,22 +118,31 @@
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/male" />
+                    android:text="@string/male"
+                    android:textColor="@color/black"
+                    android:buttonTint="@color/black"/>
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/female" />
+                    android:text="@string/female"
+                    android:textColor="@color/black"
+                    android:buttonTint="@color/black"/>
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/other" />
+                    android:text="@string/other"
+                    android:textColor="@color/black"
+                    android:buttonTint="@color/black"/>
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/prefer_not_to_tell" />
+                    android:text="@string/prefer_not_to_tell"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:buttonTint="@color/black"/>
             </RadioGroup>
 
 
@@ -144,6 +153,7 @@
             android:layout_height="wrap_content"
             android:text="@string/page1_message"
             android:textAlignment="center"
+            android:textColor="@color/black"
             android:layout_marginTop="30dp"/>
 
         <androidx.appcompat.widget.LinearLayoutCompat
