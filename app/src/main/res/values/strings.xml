@@ -15,5 +15,14 @@
     <string name="date_of_birth">Date of birth</string>
     <string name="login_successful">LOGIN SUCCESSFUL!!</string>
     <string name="account_created">ACCOUNT CREATED SUCCESSFULLY!!</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="prefer_not_to_tell">Prefer not to tell</string>
+    <string name="page1_message">You are almost there! Just one more page to go!!</string>
+    <string name="next">Next</string>
+    <string name="account_information">Account Information</string>
+    <string name="confirm_password">Confirm password</string>
 
 </resources>

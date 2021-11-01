@@ -19,9 +19,6 @@
             android:name=".UserInfoPage2"
             android:exported="true" />
         <activity
-            android:name=".UserInfo2"
-            android:exported="true" />
-        <activity
             android:name=".UserInfoPage1"
             android:exported="true" />
         <activity

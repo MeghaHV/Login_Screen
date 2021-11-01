@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<androidx.core.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,15 +7,14 @@
     android:layout_height="match_parent"
     android:background="@color/purple_200"
     android:padding="30dp"
-    tools:context=".MainActivity"
-    tools:ignore="ExtraText">
+    tools:context=".MainActivity">
 
-    <LinearLayout
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/title_activity_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,7 +25,7 @@
             android:textColor="@color/black"
             android:textSize="40sp" />
 
-        <LinearLayout
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -41,8 +40,10 @@
                 app:hintTextColor="@color/black"
                 app:boxStrokeColor="@color/black"
                 app:boxStrokeWidthFocused="2dp"
-                app:startIconDrawable="@drawable/ic_baseline_person_24"
+                app:startIconDrawable="@drawable/ic_baseline_phone_android_24"
                 app:startIconTint="@color/black"
+                app:prefixText="+91"
+                app:prefixTextColor="@color/black"
                 app:endIconMode="clear_text"
                 app:endIconTint="@color/black">
 
@@ -51,7 +52,8 @@
                     android:layout_height="match_parent"
                     android:fontFamily="sans-serif-black"
                     android:textColor="@color/black"
-                    android:inputType="text"/>
+                    android:inputType="phone"
+                    android:textCursorDrawable="@null"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -73,7 +75,8 @@
                     android:layout_height="match_parent"
                     android:fontFamily="sans-serif-black"
                     android:textColor="@color/black"
-                    android:inputType="textPassword"/>
+                    android:inputType="textPassword"
+                    android:textCursorDrawable="@null"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -83,39 +86,42 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp">
 
-                <CheckBox
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-                    android:text="@string/remember_me"
                     android:layout_centerVertical="true"
-                    android:textColor="@color/black"/>
+                    android:text="@string/remember_me"
+                    android:textColor="@color/black" />
 
 
-                <Button
+                <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:background="#00000000"
                     android:text="@string/forgot_password"
-                    android:textColor="#000" />
+                    android:textColor="#000"
+                    app:strokeColor="@color/black"/>
             </RelativeLayout>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/login_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/black"
+                android:background="@color/purple_700"
                 android:text="@string/login_button"
-                android:textColor="@color/white"
+                android:onClick="callLoginScreen"
+                android:textColor="@color/black"
                 android:layout_margin="20dp"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/create_an_account"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/create_account"
+                android:onClick="UserInfoPage1"
                 android:background="#00000000"
                 android:fontFamily="sans-serif-black"
                 android:layout_marginTop="10dp"
@@ -124,9 +130,9 @@
 
 
 
-        </LinearLayout>
-    </LinearLayout>
-</ScrollView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>
 
 
 
