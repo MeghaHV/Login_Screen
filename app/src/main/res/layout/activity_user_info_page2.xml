@@ -27,6 +27,7 @@
             android:layout_marginBottom="20dp"/>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -41,6 +42,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_email"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="sans-serif-black"
@@ -51,6 +53,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_phone_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -66,6 +69,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_phone_number"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="sans-serif-black"
@@ -77,11 +81,13 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:hint="@string/enter_password"
         app:hintTextColor="@color/black"
+        app:helperText=""
         app:boxStrokeColor="@color/black"
         app:boxStrokeWidthFocused="2dp"
         app:startIconDrawable="@drawable/ic_baseline_lock_24"
@@ -92,6 +98,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_password"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="sans-serif-black"
@@ -102,6 +109,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/confirm_pw_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -117,6 +125,7 @@
 
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/confirm_pw_login"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="sans-serif-black"

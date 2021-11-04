@@ -12,7 +12,7 @@
     <string name="enter_email">Enter a valid e-mail</string>
     <string name="enter_phone_number">Enter a valid phone number</string>
     <string name="create_button">Create account</string>
-    <string name="date_of_birth">Date of birth</string>
+    <string name="date_of_birth">Date of birth: </string>
     <string name="login_successful">LOGIN SUCCESSFUL!!</string>
     <string name="account_created">ACCOUNT CREATED SUCCESSFULLY!!</string>
     <string name="gender">Gender:</string>
