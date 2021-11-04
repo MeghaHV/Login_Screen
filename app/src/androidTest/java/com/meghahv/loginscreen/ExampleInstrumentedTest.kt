@@ -1,4 +1,4 @@
-package com.meghahv.sampleproject
+package com.meghahv.loginscreen
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.meghahv.sampleproject", appContext.packageName)
+        assertEquals("com.meghahv.loginscreen", appContext.packageName)
     }
 }

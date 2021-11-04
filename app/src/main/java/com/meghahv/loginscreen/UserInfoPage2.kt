@@ -1,4 +1,4 @@
-package com.meghahv.sampleproject
+package com.meghahv.loginscreen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

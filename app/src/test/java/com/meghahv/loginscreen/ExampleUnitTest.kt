@@ -1,4 +1,4 @@
-package com.meghahv.sampleproject
+package com.meghahv.loginscreen
 
 import org.junit.Test
 

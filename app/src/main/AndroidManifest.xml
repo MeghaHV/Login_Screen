@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.meghahv.sampleproject">
+    package="loginscreen">
 
     <application
         android:allowBackup="true"
@@ -10,19 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleProject">
         <activity
-            android:name=".AccountCreatedPage"
+            android:name="com.meghahv.loginscreen.AccountCreatedPage"
             android:exported="true" />
         <activity
-            android:name=".LoginScreen"
+            android:name="com.meghahv.loginscreen.LoginScreen"
             android:exported="true" />
         <activity
-            android:name=".UserInfoPage2"
+            android:name="com.meghahv.loginscreen.UserInfoPage2"
             android:exported="true" />
         <activity
-            android:name=".UserInfoPage1"
+            android:name="com.meghahv.loginscreen.UserInfoPage1"
             android:exported="true" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.meghahv.loginscreen.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.meghahv.loginscreen.MainActivity"
             android:exported="true" />
     </application>
 
