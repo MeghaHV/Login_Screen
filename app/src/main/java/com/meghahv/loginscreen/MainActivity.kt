@@ -78,12 +78,14 @@ class MainActivity : AppCompatActivity() {
                     login_button.isEnabled = true
                     startActivity(Intent(this@MainActivity,LoginScreen::class.java))
                 }
-                else{
-                    Toast.makeText(applicationContext,"Please don't leave any fields empty", Toast.LENGTH_LONG).show()
-                }
             }
         })
+
+        if (phoneValidate(phoneNumber.text.toString()) && passwordValidate(password.text.toString())) {
+            login_button.isEnabled = true
+        }
     }
+
 
     private fun phoneValidate(text: String?): Boolean{
         val p : Pattern = Pattern.compile("[6-9][0-9]{9}")

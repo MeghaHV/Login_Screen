@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sample Project</string>
+    <string name="app_name">Login Screen</string>
     <string name="title_activity_login">Login</string>
     <string name="enter_phone_number_email">Enter phone number</string>
     <string name="enter_password">Enter password</string>
