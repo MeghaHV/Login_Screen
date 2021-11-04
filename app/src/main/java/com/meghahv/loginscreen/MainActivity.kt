@@ -10,6 +10,7 @@ import android.widget.Toast
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
+import loginscreen.R
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
